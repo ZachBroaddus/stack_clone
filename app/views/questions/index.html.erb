@@ -1,0 +1,7 @@
+<h1>Stack-ish Overflow</h1>
+
+<% @questions.each do |q| %>
+  <ul>
+    <li><%= link_to q.body, q %></li>
+  </ul>
+<% end %>
